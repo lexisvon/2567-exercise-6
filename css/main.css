@@ -432,6 +432,29 @@ figure {
 
 
 @media screen and (max-width: 768px) {
-	
-	
+	.col-3-5 ul li {
+		padding: 0px;
+	}
+	.col-1-4 {
+		width: 50%;
+		padding: 0px;
+	}
+	.col-1-4:first-child, .col-1-4:nth-child(3) {
+		padding-right: 12px;
+	}
+	.col-1-4:nth-child(2), .col-1-4:last-child {
+		padding-left: 12px;
+	}
+	.col-1-4:last-child div {
+		padding-bottom: 0px;
+	}
+	.col-1-4:nth-child(3), .col-1-4:last-child {
+		padding-top: 24px;
+	}
+	.col-1-4:last-child p {
+		margin-bottom: -5px;
+	}
+	.col-1-2.p-t-lg {
+		width: 100%;
+	}
 }
