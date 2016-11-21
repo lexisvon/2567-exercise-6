@@ -454,7 +454,8 @@ figure {
 	.col-1-4:last-child p {
 		margin-bottom: -5px;
 	}
-	.col-1-2.p-t-lg {
-		width: 100%;
+	.col-1-2 {
+		width: 75%;
 	}
+
 }
