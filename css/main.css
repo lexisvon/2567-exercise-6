@@ -91,8 +91,8 @@ footer a:hover {
 /*--------------------------------------------------------------
 1.4 - FORMS
 -------------------------------------------------------------- */
-form {
-	padding-left:20px;
+form { 
+	padding-left: 20px;
 }
 form div {
 	padding: 10px;
@@ -101,7 +101,7 @@ form .col-1 {
 	padding-right: 2rem !important;
 }
 label {
-	display:none;
+	display: none;
 }
 input, textarea {
 	background-color: #19896e;
@@ -113,7 +113,7 @@ input:focus, textarea:focus {
 	outline: none;
 	border:1px solid #115e4b;
 }
-::-webkit-input-placeholder {
+ ::-webkit-input-placeholder {
    color: white;
 }
 
@@ -399,7 +399,7 @@ figure {
 /*--------------------------------------------------------------
 5.2 - TXT UTILITY
 -------------------------------------------------------------- */
-.txt-uppercase, form a {
+.txt-uppercase {
 	text-transform: uppercase;
 }
 .txt-center {
