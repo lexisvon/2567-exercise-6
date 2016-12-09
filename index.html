@@ -26,13 +26,13 @@
 <body>
 
 <!-- ===========HERO & NAV=============== -->
-<header class="p-t-md" id="hero">
+<header id="hero">
 	<div class="wrapper">
     	<div class="row">
             <h1 class="col-1-6">       
-                <img src="img/logo.png" alt="creativeworks logo">
+                <img src="img/logo.png" alt="Zendesk">
             </h1>
-            <nav class="col-3-5 push-right txt-uppercase" id="smooth-scroll"> 
+            <nav class="col-3-5 txt-uppercase" id="smooth-scroll"> 
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#services">Our Services</a></li>
@@ -50,7 +50,7 @@
 
 <!-- ===========OUR SERVICES=============== -->
 
-<section class="p-t-lg p-b-xl" id="services">
+<section class="p-t-lg" id="services">
 	<div class="wrapper">
     	<div class="row txt-center">
         	<div class="col-9-12 center-block">
@@ -102,8 +102,8 @@
                     <div class="col-1-2">
                     	<h3>Address</h3>
                         <h4>Zendesk</h4>
-                        <p id="m-t-0 m-b-lg">123 Fake Street<br/>
-                        Fakersvill, FA 12345-1234</p>
+                        <address><p id="m-t-0">123 Fake Street<br/>
+							Fakersvill, FA 12345-1234</p></address>
                         <ul>
                         	<li>Phone:</li>
 							<li><a href="tel:+1231231234">123.123.1234</a><br></li>
@@ -122,12 +122,12 @@
             <div class="col-1-2 p-t-lg">
                 <form class="row">
                 	<div class="col-1-2">
-                    <label>First &amp; Last Name:</label>
-                    <input  name="name" type="text" value="" placeholder="Name"/>
+                    <label for="name">First &amp; Last Name:</label>
+                    <input  name="name" type="text" id="name" placeholder="Name"/>
                     </div>
                     <div class="col-1-2">
-                        <label>Your email:</label>
-                        <input name="email" type="text" placeholder="Email" />
+                        <label for="email">Your email:</label>
+                        <input name="email" type="email" id="email" placeholder="Email" />
                     </div>
                     <div class="col-1">
                         <label for="message">Your message:</label>
